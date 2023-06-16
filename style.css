@@ -1,0 +1,132 @@
+body{
+    border: 5px solid #D8DEE4;
+    display: flex;
+    flex-direction: column;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.section1{
+    background-color: #3CBEFE;
+    padding-top: 20px;
+}
+.h1_for_sun{
+    display: inline;
+    color: #fff;
+    padding-left: 7px;
+}
+.bibi-list{
+    color: #fff;
+    padding-left: 50%;
+}
+.h1_for_weare{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+.potos_for_oreng{
+    width: 100%;
+}
+.photos_for_egg{
+    width: 100%;
+}
+.h1_for_transform{
+    text-align: center;
+    color: #252f3e;
+}
+.h3_for_wearw{
+    text-align: center;
+    color: #a9a8ab;
+}
+.h2_for_learn{
+    text-align: center;
+    font-size: 20px;
+    color: #373b47;
+    padding-bottom: 20px;
+}
+.photos_for_stand{
+    width: 100%;
+}
+.section3{
+    background-color:#9dd9cb;
+}
+.photos_for_graphic{
+    width: 100%;
+}
+.h1_for_grap{
+    color: #1c5447;
+    text-align: center;
+}
+.h3_for_full{
+    text-align: center;
+    color: #4b8477;
+}
+.photos_for_tangerine{
+    width: 100%;
+}
+.section4{
+    background-color: #6ac5fc;
+}
+.h1_for_photografy{
+    color: #256c90;
+    text-align: center;
+}
+.h3_for_photografy{
+    text-align: center;
+    color: #1c6d92;
+}
+.h2_for_client{
+    text-align: center;
+    color: #afafaf;
+    font-size: 20px;
+}
+.for_emily{
+    border-radius: 360px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.h3_for_emily{
+    text-align: center;
+    color: #bfc1c4;
+}
+@media screen and (min-width:500px) {
+    .old_text1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .innertext{
+        text-align: left;
+    }
+    .photos_for_egg{
+        width: 50%;
+        margin-left:20%;
+    }
+
+    .inner2{
+        flex-direction: row;
+        display: inline-flex;
+    }
+
+
+    .inner2_2{
+        display: inline-flex;
+        flex-direction: row;
+    }
+    .photos_for_stand{
+        width: 50%;
+        margin-right: 25%;
+    }
+    .oldtext2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .old_section{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .for_emily{
+        margin-left: 45%;
+    }
+}
